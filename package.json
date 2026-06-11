@@ -1,0 +1,35 @@
+{
+  "name": "jesse-portfolio",
+  "version": "1.0.0",
+  "description": "Dark luxury interactive developer portfolio for Jesse Yuu Laukvik",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.28.1",
+    "framer-motion": "^11.11.7",
+    "gsap": "^3.12.3",
+    "next": "^15.1.3",
+    "react": "^19.0.0-rc-66cb617a-20241122",
+    "react-dom": "^19.0.0-rc-66cb617a-20241122",
+    "three": "^r128"
+  },
+  "devDependencies": {
+    "@types/gsap": "^3.12.13",
+    "@types/node": "^20.16.1",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@types/three": "^r128",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.5.0",
+    "eslint-config-next": "^15.1.3",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.6.3"
+  }
+}
